@@ -76,10 +76,10 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _metalic: 1.62
-    - _smoothness: 0.24
+    - _metalic: 0.03
+    - _smoothness: 0.34
     m_Colors:
-    - _CountanerColor: {r: 0.04966178, g: 0.04966178, b: 0.254717, a: 0}
+    - _CountanerColor: {r: 0.20819981, g: 0.20819981, b: 0.2735849, a: 0}
     - _damagedColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
     - _ofset: {r: -0.37, g: -0.02, b: 0, a: 0}
     - _textColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}

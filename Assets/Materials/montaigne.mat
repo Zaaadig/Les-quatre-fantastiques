@@ -52,9 +52,11 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _power: 20
+    - _color_change_hight: 26.85
+    - _power: 2.58
     m_Colors:
-    - _main_color: {r: 0.8679245, g: 0.59558237, b: 0.51311255, a: 0}
+    - _Second_Color: {r: 0.9622642, g: 0.76860094, b: 0.79990005, a: 0}
+    - _main_color: {r: 0.9339623, g: 0.8693485, b: 0.8746812, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7196504565056111224
 MonoBehaviour:
