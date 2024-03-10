@@ -52,7 +52,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _color_change_hight: 26.85
+    - _color_change_hight: 42.13
     - _power: 2.58
     m_Colors:
     - _Second_Color: {r: 0.9622642, g: 0.76860094, b: 0.79990005, a: 0}
