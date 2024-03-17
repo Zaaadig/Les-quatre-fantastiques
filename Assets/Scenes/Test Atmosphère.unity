@@ -217,6 +217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -260,7 +265,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &327411392
 Transform:
@@ -444,6 +449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -689,6 +699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -708,7 +723,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &489928743
 Transform:
@@ -823,6 +838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -915,6 +935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1015,6 +1040,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1107,6 +1137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1225,6 +1260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1246,7 +1286,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &918963482
 MonoBehaviour:
@@ -1442,6 +1482,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1463,7 +1508,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &950528850
 Transform:
@@ -1624,6 +1669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1716,6 +1766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1816,6 +1871,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1837,7 +1897,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1122639227
 MonoBehaviour:
@@ -1955,7 +2015,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1177177255
 Transform:
@@ -2110,6 +2170,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2131,7 +2196,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1189890314
 Transform:
@@ -2285,6 +2350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2476,6 +2546,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2575,6 +2650,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: montagnes
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 10ed80ebd9ffcf840a46cd3ea1fa5238,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2774322891665758212, guid: 10ed80ebd9ffcf840a46cd3ea1fa5238,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2634,6 +2714,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 24.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681574572853244717, guid: 10ed80ebd9ffcf840a46cd3ea1fa5238,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6686641970972444435, guid: 10ed80ebd9ffcf840a46cd3ea1fa5238,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9131316425723351475, guid: 10ed80ebd9ffcf840a46cd3ea1fa5238,
         type: 3}
@@ -2696,10 +2786,10 @@ ReflectionProbe:
   m_Enabled: 1
   serializedVersion: 2
   m_Type: 0
-  m_Mode: 0
+  m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 1024
   m_UpdateFrequency: 0
   m_BoxSize: {x: 1000, y: 500, z: 1000}
   m_BoxOffset: {x: 0, y: 0, z: 0}
@@ -2713,11 +2803,11 @@ ReflectionProbe:
     m_Bits: 4294967295
   m_IntensityMultiplier: 1
   m_BlendDistance: 1
-  m_HDR: 1
+  m_HDR: 0
   m_BoxProjection: 0
   m_RenderDynamicObjects: 0
   m_UseOcclusionCulling: 1
-  m_Importance: 1
+  m_Importance: 5
   m_CustomBakedTexture: {fileID: 0}
 --- !u!4 &1305978980
 Transform:
@@ -2750,7 +2840,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1400030312
 Transform:
@@ -2905,6 +2995,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3004,6 +3099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3096,6 +3196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3190,6 +3295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3283,6 +3393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3375,6 +3490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3586,6 +3706,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3613,7 +3738,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1620237164
 Transform:
@@ -3708,7 +3833,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &1646914961
 Light:
@@ -3832,7 +3957,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1687827806
 Transform:
@@ -3998,6 +4123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Montaigne Detail 01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4234,6 +4364,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4445,6 +4580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Montaigne Detail 01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4466,7 +4606,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2050406156
 MonoBehaviour:
