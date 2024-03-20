@@ -190,7 +190,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.082
+    m_Value: 0.226
 --- !u!114 &3128238208084233510
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -281,7 +281,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 0.86328834, z: 0.7692769, w: -0.11883195}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9524231, z: 0.9369602, w: -0.021685798}
+    m_Value: {x: 1, y: 0.8975225, z: 0.81759566, w: -0.38422355}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
