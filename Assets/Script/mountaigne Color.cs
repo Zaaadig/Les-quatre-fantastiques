@@ -10,7 +10,8 @@ public class mountaigneColor : ScriptableObject
     // Start is called before the first frame update
     void Start()
     {
-        
+        Shader.SetGlobalColor("_main_color", firstColor);
+        Shader.SetGlobalColor("_Second_Color", secondColor);
     }
 
     private void OnValidate()

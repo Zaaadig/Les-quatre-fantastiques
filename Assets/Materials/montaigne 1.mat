@@ -88,7 +88,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     - _color_change_hight: 18.82
-    - _normal_intenssity: 0.44
+    - _normal_intenssity: 0.35
     - _power: 1.38
     - _rotation: 0.65
     m_Colors:

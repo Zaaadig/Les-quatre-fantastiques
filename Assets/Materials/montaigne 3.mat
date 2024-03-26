@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: montaigne 2
+  m_Name: montaigne 3
   m_Shader: {fileID: -6465566751694194690, guid: 251fc1549ed080f40a6c521d17abeca3,
     type: 3}
   m_Parent: {fileID: 0}
@@ -26,7 +26,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _NoramalMap:
-        m_Texture: {fileID: 2800000, guid: a73150b6a09994f4f84cbfac8067e3ca, type: 3}
+        m_Texture: {fileID: 2800000, guid: c012f09906c61a545abeb99ea13c4c26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_01e52d0a9baf47f7996ada3062444836_Texture_1_Texture2D:
@@ -88,7 +88,7 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     - _color_change_hight: 18.82
-    - _normal_intenssity: 0.29
+    - _normal_intenssity: 0.47
     - _power: 1.9
     - _rotation: 0.65
     m_Colors:
