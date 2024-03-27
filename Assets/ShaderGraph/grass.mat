@@ -46,10 +46,11 @@ Material:
     - _QueueOffset: 0
     - _alpha_Clip_Therslod: 0.297
     - _intenssity: 0.35
+    - _wind_intensity: 0.64
     m_Colors:
     - _direction: {r: 1, g: 0, b: 0, a: 0}
     - _grass_Color: {r: 0.81744564, g: 0.9056604, b: 0.56817377, a: 0}
-    - _lit_Color: {r: 0.6698113, g: 0.5785543, b: 0.2938323, a: 0}
+    - _lit_Color: {r: 0.7169812, g: 0.64311856, b: 0.40922037, a: 0}
     - _shadow_Color: {r: 0.03869261, g: 0.05660379, b: 0.025898905, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6535136496710261097
