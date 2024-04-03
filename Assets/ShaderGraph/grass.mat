@@ -46,7 +46,8 @@ Material:
     - _QueueOffset: 0
     - _alpha_Clip_Therslod: 0.297
     - _intenssity: 0.35
-    - _wind_intensity: 0.64
+    - _wind_Speed: 1
+    - _wind_intensity: 5.5
     m_Colors:
     - _direction: {r: 1, g: 0, b: 0, a: 0}
     - _grass_Color: {r: 0.81744564, g: 0.9056604, b: 0.56817377, a: 0}
