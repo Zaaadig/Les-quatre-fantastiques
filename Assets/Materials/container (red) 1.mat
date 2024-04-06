@@ -79,7 +79,7 @@ Material:
     - _metalic: 0.03
     - _smoothness: 0.34
     m_Colors:
-    - _CountanerColor: {r: 0.085172676, g: 0.085172676, b: 0.20754719, a: 0}
+    - _CountanerColor: {r: 0.107600555, g: 0.107600555, b: 0.24528301, a: 0}
     - _damagedColor: {r: 0, g: 0, b: 0, a: 0}
     - _ofset: {r: -0.37, g: -0.02, b: 0, a: 0}
     - _textColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}
