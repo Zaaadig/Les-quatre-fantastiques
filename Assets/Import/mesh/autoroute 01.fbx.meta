@@ -18,27 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: collone
-    second: {fileID: 2100000, guid: 248fc936fbc70d44f933ac9d821dbeb1, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Box009_Normal
-    second: {fileID: 2800000, guid: 8b3e144f7d4651448af16ad064833043, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Road Bitume_BaseColor
-    second: {fileID: 2800000, guid: 8bb9cd4464d974d40a3ca9b617e24210, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Road_BaseColor
-    second: {fileID: 2800000, guid: 06c985be484afa649b7633f212676c92, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Road_Displacement
-    second: {fileID: 2800000, guid: 1d357c346ec90d54ca7c3e8326d20af7, type: 3}
+    second: {fileID: 2100000, guid: 9154747d2a36fea46a82b2a38a9e8d6b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

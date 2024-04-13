@@ -29,6 +29,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: c012f09906c61a545abeb99ea13c4c26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Rock:
+        m_Texture: {fileID: 2800000, guid: ac8542a0be4c5134ebdc0aad6faccaf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockAO:
+        m_Texture: {fileID: 2800000, guid: 2b375e2a677f0814a8e1a8f6e3ecc79d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockNormal:
+        m_Texture: {fileID: 2800000, guid: 0deb5111ecc623f4b8b87315096f69a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_01e52d0a9baf47f7996ada3062444836_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 3fbce121d5f2ce84093c980ff6bc0765, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -41,6 +53,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9051f10d4bd5cac44925a1d978d6faab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_aa4c715262034a7c97d5a8a33c9725ab_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3c65ca5c43acbaf409aad25f59ad587d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e2725dc9b4b044e2860c8935bf681f26_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 3bc9fc52b2ccc6f46b57b7e7928484aa, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -49,7 +65,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: f18887000ac210a43a86dfe19a77ef73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f05f1b36c05c475f863bc4e42074c09c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b9500be206bb67441aec87f15e3601f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Triplanar_ad11c3e0368c47bf9f21ab39090156e2_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_d780c1b54d68479daa6192e6d264a349_Texture_1_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -81,6 +105,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _RockScale: 0.2
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
@@ -88,8 +113,8 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     - _color_change_hight: 18.82
-    - _normal_intenssity: 0.47
-    - _power: 1.9
+    - _normal_intenssity: 0.55
+    - _power: 3
     - _rotation: 0.65
     m_Colors:
     - _Second_Color: {r: 0.8584906, g: 0.5072406, b: 0.4008989, a: 0}
