@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="colorManager")]
 public class mountaigneColor : ScriptableObject
 {
-    [SerializeField] Color firstColor;
-    [SerializeField] Color secondColor;
+    [SerializeField]public Color firstColor;
+    [SerializeField]public Color secondColor;
     // Start is called before the first frame update
     void Start()
     {

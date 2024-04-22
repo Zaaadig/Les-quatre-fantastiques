@@ -30,15 +30,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Rock:
-        m_Texture: {fileID: 2800000, guid: ac8542a0be4c5134ebdc0aad6faccaf0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 706d32c1c8277a145b23fb69654d8da3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RockAO:
-        m_Texture: {fileID: 2800000, guid: 2b375e2a677f0814a8e1a8f6e3ecc79d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 11a825100bf8de44ba1ae22d11f995e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RockNormal:
-        m_Texture: {fileID: 2800000, guid: 0deb5111ecc623f4b8b87315096f69a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0c923018a547f82479530327ec712cd6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_01e52d0a9baf47f7996ada3062444836_Texture_1_Texture2D:
