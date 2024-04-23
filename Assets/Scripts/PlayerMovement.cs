@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode runKey = KeyCode.LeftShift;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -66,16 +67,16 @@ public class PlayerMovement : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
 
         // Check if Shift key is pressed and speed is not already doubled
-        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && !speedDoubled)
+        if ((Input.GetKeyDown(runKey) || Input.GetKeyDown(KeyCode.RightShift)) && !speedDoubled)
         {
             // Double the moveSpeed if Shift key is pressed
-            moveSpeed *= 2f;
+            moveSpeed *= 1.5f;
             speedDoubled = true; // Set the flag to true to indicate speed has been doubled
         }
-        else if (!(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && speedDoubled)
+        else if (!(Input.GetKey(runKey) || Input.GetKey(KeyCode.RightShift)) && speedDoubled)
         {
             // Reset moveSpeed to its original value if Shift key is not pressed and speed was doubled before
-            moveSpeed /= 2f;
+            moveSpeed /= 1.5f;
             speedDoubled = false; // Reset the flag since speed has been reset
         }
 
@@ -87,6 +88,8 @@ public class PlayerMovement : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+
+
     }
 
 
@@ -114,7 +117,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        print("test");
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
