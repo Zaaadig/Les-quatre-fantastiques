@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: bb615abbc4cbe6545ac0fd8546b784e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Roof
     second: {fileID: 2100000, guid: 4c7bd626aef5208419cd22112349b566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof 02
+    second: {fileID: 2100000, guid: 81ffdcc0e9c348f4ba0563a36409be99, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
