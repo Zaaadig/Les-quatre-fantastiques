@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public List<string> inventory;
+    public List<ItemController> inventory;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +22,26 @@ public class GameManager : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.tag == "Pickable")
                 {
-                    inventory.Add(hitInfo.collider.gameObject.name);
-                    Debug.Log(hitInfo.collider.gameObject.name + "Picked !");
-                    Destroy(hitInfo.collider.gameObject);
+                    ItemController item = hitInfo.collider.gameObject.GetComponent<ItemController>();
+                    if (item)
+                    {
+                        inventory.Add(item);
+                        Debug.Log(hitInfo.collider.gameObject.name + "Picked !");
+                        item.transform.parent = transform;
+                        item.gameObject.SetActive(false);
+                    }
                 }
             }
         }
+    }
+
+    public bool HasItem(ItemTypeEnum itemType)
+    {
+        ItemController foundItem = inventory.Find(item => item.ItemType == itemType);
+
+        if (foundItem)
+            return true;
+
+        return false;
     }
 }
