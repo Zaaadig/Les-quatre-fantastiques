@@ -9,9 +9,9 @@ public class NPC : MonoBehaviour
     public GameObject buttonAnim;
     public GameObject dialoguePanel;
     public Text dialogueText;
+    [Header("Dialogue")]
     public string[] dialogue;
     private int index;
-
     public string[] secondTime;
     public string[] hasItemDialogue;
     public string[] hasItemLieDialogue;
