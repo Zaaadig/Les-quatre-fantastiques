@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6005818619360170812
+--- !u!114 &-14881353133738837
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,14 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_house wall
-  m_Shader: {fileID: -6465566751694194690, guid: 8f123f1e15524d645bcd02c8da0c9e85,
+  m_Name: sand storm
+  m_Shader: {fileID: -6465566751694194690, guid: c1d56fa0799233f41bbe140368efd188,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,24 +37,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_01a7b3266d604e88b1a9e6fbf0c814fc_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 78734a3d298187644b86f47de97ee941, type: 3}
+    - _SampleTexture2D_2e725eb52515469197c3bd2a0ff70d4a_Texture_1_Texture2D:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_04ad29a983e34aeca4dc24dd1e79ca7b_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 842e47626648a3f42994625423d308b0, type: 3}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_10dab0023fb54211a2c462d6f05b13b7_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 842e47626648a3f42994625423d308b0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_50d004b2a5a3490998fb030bda4a10a0_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 575abc772cb6d4b42a3a5456424d287e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_60d6304a0ca8493394257c1dceb8b6ae_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 42277f144b5e1a74f9b82db82103b58b, type: 3}
+    - _Triplanar_07b71ade131a42d7bb9873a56a0d664b_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -73,9 +65,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _contrast: 2
-    - _metalic_intensity: 17.41
-    - _normal_Intensity: 1.5
+    - _speed: 0.3
     m_Colors:
-    - _Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
+    - _Color: {r: 0.4339623, g: 0.38574424, b: 0.3254717, a: 0}
   m_BuildTextureStacks: []

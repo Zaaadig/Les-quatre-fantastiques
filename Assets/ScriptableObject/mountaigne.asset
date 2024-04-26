@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: mountaigne
   m_EditorClassIdentifier: 
   firstColor: {r: 1, g: 1, b: 1, a: 0}
-  secondColor: {r: 0.745283, g: 0.745283, b: 0.745283, a: 0}
+  secondColor: {r: 0.745283, g: 0.7050399, b: 0.6433339, a: 0}
