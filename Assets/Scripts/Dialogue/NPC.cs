@@ -12,6 +12,11 @@ public class NPC : MonoBehaviour
     public string[] dialogue;
     private int index;
 
+    public string[] secondTime;
+    public string[] hasItemDialogue;
+    public string[] hasItemLieDialogue;
+    public string[] LeaveDialogue;
+
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose = false;
@@ -21,6 +26,7 @@ public class NPC : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             player.GetComponent<PlayerMovement>().enabled = false;
+            buttonAnim.gameObject.SetActive(false);
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -77,6 +83,9 @@ public class NPC : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         player.GetComponent<PlayerMovement>().enabled = true;
+        buttonAnim.gameObject.SetActive(true);
+        buttonAnim.GetComponent<Animator>().Play("AnimButton");
+
     }
 
     private void OnTriggerEnter(Collider other)

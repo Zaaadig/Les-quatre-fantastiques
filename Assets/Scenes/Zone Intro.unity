@@ -185,7 +185,7 @@ RectTransform:
   m_GameObject: {fileID: 61130832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 591436083}
@@ -195,7 +195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.10254, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &61130834
@@ -2523,7 +2523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2924528, g: 0.1449829, b: 0, a: 0.4392157}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0.84313726}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5156,10 +5156,28 @@ MonoBehaviour:
   dialoguePanel: {fileID: 604658922}
   dialogueText: {fileID: 1914843774}
   dialogue:
-  - Bonjour
-  - 'Ca va '
+  - Bonjour.
+  - "Tu cherche un moyen de passer la fronti\xE8re ?"
+  - Je peux te faire passer si tu veux.
+  - J'aurais juste besoin que tu me rapportes certaines choses.
+  - "Dans un premier temps de l'argent en bonne quantit\xE9."
+  - De la nourriture pour mon cheval.
+  - Une couverture pour que tu puisses te cacher.
+  - "Il me semble qu'une usine abandonn\xE9 se trouve non loin,"
+  - Tu trouveras surement ce que tu cherches la bas.
+  secondTime:
+  - Je vois que tu es de retour.
+  - "As tu ce que je t'ai demand\xE9 ?"
+  hasItemDialogue:
+  - "Tr\xE8s bien va te cacher."
+  - Et ne bouge pas.
+  hasItemLieDialogue:
+  - "Tr\xE8s bien va te cacher."
+  - Et ne bouge pas.
+  LeaveDialogue:
+  - Je t'attend alors.
   contButton: {fileID: 2051632565}
-  wordSpeed: 0.1
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!65 &1654027455
 BoxCollider:
@@ -5855,7 +5873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.01886791, g: 0.01664292, b: 0.01664292, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5872,7 +5890,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 

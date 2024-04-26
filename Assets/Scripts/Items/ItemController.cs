@@ -7,4 +7,6 @@ public enum ItemTypeEnum {None, Blanket, Food, Money };
 public class ItemController : MonoBehaviour
 {
     public ItemTypeEnum ItemType = ItemTypeEnum.None;
+
+    public string ItemName = "";
 }
