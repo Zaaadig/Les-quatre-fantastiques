@@ -3,7 +3,17 @@ guid: 1f4052bf02a9ed145b2cf0f54ac51cca
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: POTEAUX
+    second: {fileID: 2100000, guid: d126101dcfd015f47932c7bbedaf0939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paneaux
+    second: {fileID: 2100000, guid: 800c3b07312251342b88f982b1123258, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
