@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode runKey = KeyCode.LeftShift;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -31,11 +32,16 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    float originalMoveSpeed;
+    bool speedDoubled = false;
+
     private void Start()
     {
+        originalMoveSpeed = moveSpeed;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
+
 
     private void Update()
     {
@@ -60,7 +66,21 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKey(jumpKey) && readyToJump && grounded)
+        // Check if Shift key is pressed and speed is not already doubled
+        if ((Input.GetKeyDown(runKey) || Input.GetKeyDown(KeyCode.RightShift)) && !speedDoubled)
+        {
+            // Double the moveSpeed if Shift key is pressed
+            moveSpeed *= 1.5f;
+            speedDoubled = true; // Set the flag to true to indicate speed has been doubled
+        }
+        else if (!(Input.GetKey(runKey) || Input.GetKey(KeyCode.RightShift)) && speedDoubled)
+        {
+            // Reset moveSpeed to its original value if Shift key is not pressed and speed was doubled before
+            moveSpeed /= 1.5f;
+            speedDoubled = false; // Reset the flag since speed has been reset
+        }
+
+        if (Input.GetKey(jumpKey) && readyToJump && grounded)
         {
             readyToJump = false;
 
@@ -68,7 +88,10 @@ public class PlayerMovement : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+
+
     }
+
 
     private void MovePlayer()
     {
@@ -94,7 +117,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        print("test");
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
