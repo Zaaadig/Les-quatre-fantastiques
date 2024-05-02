@@ -1730,7 +1730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -5121,100 +5121,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625350588}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1654027453
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1654027456}
-  - component: {fileID: 1654027455}
-  - component: {fileID: 1654027454}
-  m_Layer: 0
-  m_Name: Control
-  m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1654027454
+--- !u!114 &1654027454 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4528351029542554923}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654027453}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c85c937d60907d408f6caf265665717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1800246557}
-  buttonAnim: {fileID: 61130832}
-  dialoguePanel: {fileID: 604658922}
-  dialogueText: {fileID: 1914843774}
-  dialogue:
-  - Bonjour.
-  - "Tu cherche un moyen de passer la fronti\xE8re ?"
-  - Je peux te faire passer si tu veux.
-  - J'aurais juste besoin que tu me rapportes certaines choses.
-  - "Dans un premier temps de l'argent en bonne quantit\xE9."
-  - De la nourriture pour mon cheval.
-  - Une couverture pour que tu puisses te cacher.
-  - "Il me semble qu'une usine abandonn\xE9 se trouve non loin,"
-  - Tu trouveras surement ce que tu cherches la bas.
-  secondTime:
-  - Je vois que tu es de retour.
-  - "As tu ce que je t'ai demand\xE9 ?"
-  hasItemDialogue:
-  - "Tr\xE8s bien va te cacher."
-  - Et ne bouge pas.
-  hasItemLieDialogue:
-  - "Tr\xE8s bien va te cacher."
-  - Et ne bouge pas.
-  LeaveDialogue:
-  - Je t'attend alors.
-  contButton: {fileID: 2051632565}
-  wordSpeed: 0.01
-  playerIsClose: 0
---- !u!65 &1654027455
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654027453}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1654027456
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654027453}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.28, y: 1.96, z: 6.23}
-  m_LocalScale: {x: 6.5979104, y: 3.2451, z: 6.740459}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1656595839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,3 +6776,131 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ecbea3cb1f83a84cb57097fafa15bcd, type: 3}
+--- !u!1001 &4528351029542554923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1095926823830257435, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Name
+      value: Control
+      objectReference: {fileID: 0}
+    - target: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1800246557}
+    - target: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: buttonAnim
+      value: 
+      objectReference: {fileID: 61130832}
+    - target: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: contButton
+      value: 
+      objectReference: {fileID: 2051632565}
+    - target: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 1914843774}
+    - target: {fileID: 2770490903562717826, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 604658922}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.88212866
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.8237553
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.8816328
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.025015429
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.08812226
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974068294602714433, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.059183948
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273748723222134950, guid: 09716f6e82ad7ff42bc0f93b751ee25d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09716f6e82ad7ff42bc0f93b751ee25d, type: 3}
