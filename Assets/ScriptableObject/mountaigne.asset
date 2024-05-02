@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 987900842b9aff44c9440a8221480617, type: 3}
   m_Name: mountaigne
   m_EditorClassIdentifier: 
-  firstColor: {r: 1, g: 1, b: 1, a: 0}
-  secondColor: {r: 0.745283, g: 0.7050399, b: 0.6433339, a: 0}
+  firstColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
+  secondColor: {r: 0.6792453, g: 0.61727345, b: 0.52224994, a: 0}
