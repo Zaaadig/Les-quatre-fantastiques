@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e7610253d490114aad2b8b608334b5e
+guid: cc0b97846a5aba34d905c15322fff7e2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: cloth
-    second: {fileID: 2100000, guid: cc43b44b54e78d6488a3354ad20f694b, type: 2}
+      name: plastic
+    second: {fileID: 2100000, guid: 5ebbf5665a877a542ab978dedc317876, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: fiotures
-    second: {fileID: 2100000, guid: 276061554bbd6504bbab28adb084a9e9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: tasseau
-    second: {fileID: 2100000, guid: a4cdf6a0f2f878b41b2e91ff76df8418, type: 2}
+      name: plasticc
+    second: {fileID: 2100000, guid: 6d1d2e4dd14316c4db4bec26d5aa92eb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
