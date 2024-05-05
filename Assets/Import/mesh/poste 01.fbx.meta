@@ -3,7 +3,27 @@ guid: 3c88849b8563c6946bc9c9de3a15953c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Detail
+    second: {fileID: 2100000, guid: 9908c007bc5266e488704439b2632929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: contour
+    second: {fileID: 2100000, guid: d4af39c5c66c1f945ae1b583fb427979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: post
+    second: {fileID: 2100000, guid: 16eba8894c6399d41b9a899f323409de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vitre
+    second: {fileID: 2100000, guid: 0145a4026e64da04694a72d71dc64dd3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
