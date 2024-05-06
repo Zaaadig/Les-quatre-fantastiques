@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    [SerializeField] PlayerCam playercam;
+
     Vector3 moveDirection;
 
     Rigidbody rb;
@@ -36,11 +38,18 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
+    private void OnCollisionStay(Collision collision)
+    {
 
+    }
     private void Update()
     {
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+        if (Physics.Raycast(transform.position, Vector3.down, 0.1f))
+        {
+            grounded = true;
+        }
 
+        rotation();
         MyInput();
         SpeedControl();
 
@@ -49,7 +58,14 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         }
         else
+        {
             rb.drag = 0;
+        }
+            
+    }
+    void rotation()
+    {
+        transform.rotation = Quaternion.Euler(0,playercam.yRotation,0);
     }
     private void FixedUpdate()
     {
@@ -72,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection = transform.forward * verticalInput + transform.right * horizontalInput;
 
         if (grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
@@ -85,17 +101,17 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-        if(flatVel.magnitude > moveSpeed)
+        /*if(flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
-        }
+        }*/
     }
 
     private void Jump()
     {
         print("test");
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        //rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
