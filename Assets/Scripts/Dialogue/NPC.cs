@@ -25,7 +25,7 @@ public class NPC : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            player.GetComponent<PlayerMovement>().enabled = false;
+            player.GetComponent<PlayerMovementAdvanced>().enabled = false;
             buttonAnim.gameObject.SetActive(false);
             if (dialoguePanel.activeInHierarchy)
             {
@@ -82,7 +82,7 @@ public class NPC : MonoBehaviour
     IEnumerator endDialogue()
     {
         yield return new WaitForSeconds(0.3f);
-        player.GetComponent<PlayerMovement>().enabled = true;
+        player.GetComponent<PlayerMovementAdvanced>().enabled = true;
         buttonAnim.gameObject.SetActive(true);
         buttonAnim.GetComponent<Animator>().Play("AnimButton");
 
