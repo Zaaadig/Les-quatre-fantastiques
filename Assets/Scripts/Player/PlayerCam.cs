@@ -11,9 +11,7 @@ public class PlayerCam : MonoBehaviour
     public Transform orientation;
 
     float xRotation;
-    public float yRotation;
-
-    [SerializeField] PlayerMovement player;
+    float yRotation;
 
     private void Start()
     {
@@ -30,10 +28,9 @@ public class PlayerCam : MonoBehaviour
 
         yRotation += mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        
 
-        //transform.rotation = Quaternion.Euler(xRotation,0,0 );
-        //orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 
 }
