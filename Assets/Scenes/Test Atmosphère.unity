@@ -8452,8 +8452,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.18653545
         T: 0.03448276
       - Distance: 0.42535585
@@ -8515,8 +8515,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.6271516
         T: 0.03448276
       - Distance: 1.2741523
@@ -8578,8 +8578,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.70860165
         T: 0.03448276
       - Distance: 1.424585
@@ -8641,8 +8641,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.7479198
         T: 0.03448276
       - Distance: 1.4942529
@@ -8704,8 +8704,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.7905992
         T: 0.03448276
       - Distance: 1.6119953
@@ -8767,8 +8767,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.0377702
         T: 0.03448276
       - Distance: 1.991698
@@ -8830,8 +8830,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.79864544
         T: 0.03448276
       - Distance: 1.5971057
@@ -8893,8 +8893,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.83668846
         T: 0.03448276
       - Distance: 1.7098193
@@ -8956,8 +8956,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.38604695
         T: 0.03448276
       - Distance: 0.77912724
@@ -9019,8 +9019,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.63532925
         T: 0.03448276
       - Distance: 1.2862729
@@ -9082,8 +9082,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.8180692
         T: 0.03448276
       - Distance: 1.6799133
@@ -9145,8 +9145,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.0968016
         T: 0.03448276
       - Distance: 2.2595215
@@ -9208,8 +9208,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 2.5729656
         T: 0.03448276
       - Distance: 5.17076
@@ -9271,8 +9271,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.5655202
         T: 0.03448276
       - Distance: 1.1122336
@@ -9334,8 +9334,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.8118609
         T: 0.03448276
       - Distance: 1.642231
@@ -9397,8 +9397,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.5238926
         T: 0.03448276
       - Distance: 3.175146
@@ -9460,8 +9460,8 @@ MonoBehaviour:
     - Mode: 2
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.34568447
         T: 0.03448276
       - Distance: 0.9357425
@@ -9523,8 +9523,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.4688876
         T: 0.03448276
       - Distance: 3.0219116
@@ -9586,8 +9586,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.1161609
         T: 0.03448276
       - Distance: 2.242683
@@ -9649,8 +9649,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.5625281
         T: 0.03448276
       - Distance: 3.114531
@@ -9712,8 +9712,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 2.1451151
         T: 0.03448276
       - Distance: 4.459306
@@ -9775,8 +9775,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.0717365
         T: 0.03448276
       - Distance: 2.1136389
@@ -9838,8 +9838,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.0298662
         T: 0.03448276
       - Distance: 2.0388641
@@ -9901,8 +9901,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.9216556
         T: 0.03448276
       - Distance: 1.8622727
@@ -9964,8 +9964,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 1.0403672
         T: 0.03448276
       - Distance: 2.1255171
@@ -10163,7 +10163,7 @@ MonoBehaviour:
     space: 0
   m_DeprecatedInstances: []
   m_AutoRefresh: 1
-  m_Seed: -100212871
+  m_Seed: 409479832
 --- !u!4 &293134676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5d72e2d31d36f1b45a1a5bb0f61bd96e,
@@ -12710,17 +12710,17 @@ PrefabInstance:
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.32
+      value: -8.28
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.17
+      value: 15.38
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 130.86
+      value: 130.9
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
@@ -25879,17 +25879,17 @@ PrefabInstance:
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.19
+      value: -8.15
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.81
+      value: 13.02
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 130.96
+      value: 131
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
@@ -26457,17 +26457,17 @@ PrefabInstance:
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.66
+      value: -8.62
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.82
+      value: 14.97
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 124.15
+      value: 124.19
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
@@ -36950,6 +36950,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2680780917583427419, guid: 2ecbea3cb1f83a84cb57097fafa15bcd,
+        type: 3}
+      propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2770690885371660990, guid: 2ecbea3cb1f83a84cb57097fafa15bcd,
         type: 3}
       propertyPath: m_RootOrder
@@ -37009,6 +37014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5558150457761656712, guid: 2ecbea3cb1f83a84cb57097fafa15bcd,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5720219504116645443, guid: 2ecbea3cb1f83a84cb57097fafa15bcd,
         type: 3}
@@ -52336,8 +52346,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.3585693
         T: 0.03448276
       - Distance: 0.83295596
@@ -52399,8 +52409,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.8280186
         T: 0.03448276
       - Distance: 1.6866324
@@ -52462,8 +52472,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.3319628
         T: 0.03448276
       - Distance: 0.6487213
@@ -52525,8 +52535,8 @@ MonoBehaviour:
     - Mode: 4
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.32974383
         T: 0.03448276
       - Distance: 0.66224766
@@ -52588,8 +52598,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.29333052
         T: 0.03448276
       - Distance: 0.59034216
@@ -52651,8 +52661,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.3531346
         T: 0.03448276
       - Distance: 0.71076864
@@ -52714,8 +52724,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.35308683
         T: 0.03448276
       - Distance: 0.70926106
@@ -52777,8 +52787,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.32460716
         T: 0.03448276
       - Distance: 0.6514231
@@ -52840,8 +52850,8 @@ MonoBehaviour:
     - Mode: 0
       Tension: 0.5
       DistanceToInterpolation:
-      - Distance: 0
-        T: 0
+      - Distance: -1
+        T: -1
       - Distance: 0.47557938
         T: 0.03448276
       - Distance: 0.9783308
@@ -53007,7 +53017,7 @@ MonoBehaviour:
     Prefab: {fileID: 7068871304959226694, guid: 4983deb71ab4a7842841aac80c51ce0b,
       type: 3}
     probability: 0
-    Probability: 0
+    Probability: 100
   m_Method: 1
   m_Space: 0
   m_Spacing: {x: 2.41, y: 2.53}
@@ -58118,17 +58128,17 @@ PrefabInstance:
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.53
+      value: -8.49
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.46
+      value: 12.61
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 124.25
+      value: 124.29
       objectReference: {fileID: 0}
     - target: {fileID: 9141971480823455577, guid: a3e49c6f58f9b77469e1577c3775200c,
         type: 3}
