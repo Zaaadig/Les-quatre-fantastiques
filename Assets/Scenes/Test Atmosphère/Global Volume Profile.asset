@@ -247,10 +247,10 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.849063, z: 0.7471086, w: 0.06243703}
+    m_Value: {x: 1, y: 0.87375027, z: 0.8330545, w: 0.06243703}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.9379167, y: 0.9688907, z: 1, w: -0.22018771}
+    m_Value: {x: 1, y: 0.945563, z: 0.9532807, w: -0.22018771}
   gain:
     m_OverrideState: 1
     m_Value: {x: 1, y: 0.9664047, z: 0.91718614, w: -0.094289735}
@@ -316,13 +316,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.43545872, y: 0.5857997, z: 1, w: 0.08894537}
+    m_Value: {x: 0.70410323, y: 0.7639298, z: 1, w: 0.5479039}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8257729, z: 0.65313035, w: 0.044130635}
+    m_Value: {x: 0.86977, y: 0.9302043, z: 1, w: 0.4677847}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8975225, z: 0.81759566, w: -0.38422355}
+    m_Value: {x: 1, y: 0.8975225, z: 0.81759566, w: 0.008826139}
   shadowsStart:
     m_OverrideState: 1
     m_Value: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: -25.2
+    m_Value: -53
   tint:
     m_OverrideState: 1
-    m_Value: 19.3
+    m_Value: -5
