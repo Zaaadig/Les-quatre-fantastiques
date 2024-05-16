@@ -62,7 +62,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
-        playerHeight = 1f;
+        playerHeight = playerHeight / 2;
         readyToJump = true;
 
         startYScale = transform.localScale.y;
@@ -73,7 +73,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     private IEnumerator Initialization()
     {
         yield return new WaitForSeconds(1f);
-        playerHeight = 2f;
+        playerHeight = playerHeight;
     }
 
     private void Update()
