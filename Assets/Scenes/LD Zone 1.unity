@@ -3164,6 +3164,99 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3e49c6f58f9b77469e1577c3775200c, type: 3}
+--- !u!1001 &196737417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2429399411004463181, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Name
+      value: factory door barre metal (160) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 108
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 283.445
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 326.13538
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 263.37994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 81.8275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230579434322229656, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fde61b9618156a4599001eef2124686, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a48f1cec40aeb58469335a5c533ca7f3, type: 3}
 --- !u!1001 &198220213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4354,7 +4447,7 @@ PrefabInstance:
     - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 283.445
+      value: 164.1912
       objectReference: {fileID: 0}
     - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
         type: 3}
@@ -4379,7 +4472,7 @@ PrefabInstance:
     - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.8
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
         type: 3}
@@ -7437,6 +7530,99 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80ffaefbf493f1a479756894401e841a, type: 3}
+--- !u!1001 &441161493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2429399411004463181, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Name
+      value: factory door barre metal (160) Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 283.445
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 248.61803
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 263.37994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6028045
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6028045
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3696306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.3696306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 26.968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230579434322229656, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fde61b9618156a4599001eef2124686, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a48f1cec40aeb58469335a5c533ca7f3, type: 3}
 --- !u!1 &449743849
 GameObject:
   m_ObjectHideFlags: 0
@@ -8779,6 +8965,99 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 410339978}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &528320738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2429399411004463181, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Name
+      value: factory door barre metal (160) Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 109
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 164.1912
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 248.61803
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 263.37994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.629
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097673110217196279, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230579434322229656, guid: a48f1cec40aeb58469335a5c533ca7f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fde61b9618156a4599001eef2124686, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a48f1cec40aeb58469335a5c533ca7f3, type: 3}
 --- !u!1 &532518373
 GameObject:
   m_ObjectHideFlags: 0
@@ -33004,7 +33283,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 85cbda9dc24f9f04bae66f1e9862495c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38233,7 +38512,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 85cbda9dc24f9f04bae66f1e9862495c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
