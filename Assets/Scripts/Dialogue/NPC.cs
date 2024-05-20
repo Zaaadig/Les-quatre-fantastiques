@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
+    public CursorController cursorController;
     public GameObject player;
     public GameObject buttonAnim;
     public GameObject dialoguePanel;
@@ -25,6 +26,7 @@ public class NPC : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
+            cursorController.ShowCursor();
             player.GetComponent<PlayerMovementAdvanced>().enabled = false;
             buttonAnim.gameObject.SetActive(false);
             if (dialoguePanel.activeInHierarchy)
@@ -81,6 +83,7 @@ public class NPC : MonoBehaviour
 
     IEnumerator endDialogue()
     {
+        cursorController.HideCursor();
         yield return new WaitForSeconds(0.3f);
         player.GetComponent<PlayerMovementAdvanced>().enabled = true;
         buttonAnim.gameObject.SetActive(true);

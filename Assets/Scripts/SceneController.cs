@@ -1,19 +1,17 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // Add this to access UI components
 
 public class SceneController : MonoBehaviour
 {
     public string sceneName;
     [SerializeField] Animator transitionAnim;
-    private void OnTriggerEnter(Collider collision)
+
+    // Method to be called on button click
+    public void OnButtonClick()
     {
-        if (collision.CompareTag("Player"))
-        {
-            StartCoroutine(LoadLevel());
-        }
+        StartCoroutine(LoadLevel());
     }
 
     IEnumerator LoadLevel()

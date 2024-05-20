@@ -7,6 +7,7 @@ public class Conitnuer : MonoBehaviour
     public NPC npcHolder;
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             npcHolder.NextLine();
