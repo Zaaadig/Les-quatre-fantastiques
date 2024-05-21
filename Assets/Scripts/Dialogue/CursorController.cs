@@ -20,4 +20,3 @@ public class CursorController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 }
-
