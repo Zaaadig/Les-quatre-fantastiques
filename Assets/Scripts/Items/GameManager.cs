@@ -5,15 +5,24 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public List<ItemController> inventory;
+
+    public static GameManager Instance;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+            Destroy(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
+        return; 
         if (Input.GetKeyDown(KeyCode.E))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -43,5 +52,10 @@ public class GameManager : MonoBehaviour
             return true;
 
         return false;
+    }
+
+    public bool HasAllItem()
+    {
+        return inventory.Count == 3;
     }
 }

@@ -73,7 +73,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     private IEnumerator Initialization()
     {
         yield return new WaitForSeconds(1f);
-        playerHeight = playerHeight * 1;
+        playerHeight = playerHeight * 2;
     }
 
     private void Update()
