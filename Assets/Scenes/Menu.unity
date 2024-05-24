@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78066f1d6d41f62468bea41a621786e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: "Poste fronti\xE8re"
+  sceneName: Skip Tuto
   transitionAnim: {fileID: 1156127298}
 --- !u!114 &546879613
 MonoBehaviour:

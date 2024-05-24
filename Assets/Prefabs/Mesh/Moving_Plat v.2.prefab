@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3eb384ca39fbe4e9ce1fdb2d6b30a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   ways: {fileID: 7940182533408777013}
   wayPoints: []
   wait: 1.2

@@ -17,13 +17,16 @@ public class GameManager : MonoBehaviour
         }
         else
             Destroy(gameObject);
+
+        inventory.Clear();
     }
 
     // Update is called once per frame
     void Update()
-    { 
+    {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("OUZF " + Camera.main);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hitInfo;
             if(Physics.Raycast(ray, out hitInfo))
