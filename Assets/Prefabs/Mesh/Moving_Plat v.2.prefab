@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3eb384ca39fbe4e9ce1fdb2d6b30a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 5
   ways: {fileID: 7940182533408777013}
   wayPoints: []
   wait: 1.2
@@ -329,6 +329,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -804731622281664130, guid: 36f104041f1bdf94593afd4c5059a723,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 091061fdbed3b8749bbd771835ddd1df, type: 2}
     - target: {fileID: 919132149155446097, guid: 36f104041f1bdf94593afd4c5059a723,
         type: 3}
       propertyPath: m_Name

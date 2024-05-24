@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
+    public CursorController cursorController;
     public GameObject player;
     public GameObject buttonAnim;
     public GameObject dialoguePanel;
@@ -20,11 +22,18 @@ public class NPC : MonoBehaviour
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose = false;
+    public CanvasGroup buttonGroup;
+
+    private void Start()
+    {
+        //GameManager.Instance.inventory    
+    }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
+            cursorController.ShowCursor();
             player.GetComponent<PlayerMovementAdvanced>().enabled = false;
             buttonAnim.gameObject.SetActive(false);
             if (dialoguePanel.activeInHierarchy)
@@ -71,6 +80,11 @@ public class NPC : MonoBehaviour
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
+            if (index == 1)
+            {
+                buttonGroup.alpha = 1;
+                buttonGroup.interactable = true;
+            }
         }
         else
         {
@@ -81,6 +95,9 @@ public class NPC : MonoBehaviour
 
     IEnumerator endDialogue()
     {
+        buttonGroup.alpha = 0;
+        buttonGroup.interactable = false;
+        cursorController.HideCursor();
         yield return new WaitForSeconds(0.3f);
         player.GetComponent<PlayerMovementAdvanced>().enabled = true;
         buttonAnim.gameObject.SetActive(true);
@@ -105,6 +122,19 @@ public class NPC : MonoBehaviour
             playerIsClose = false;
             buttonAnim.gameObject.SetActive(false);
             zeroText();
+        }
+    }
+
+    public void OnYesButtonPress()
+    {
+        if (GameManager.Instance.HasAllItem())
+        {
+            SceneManager.LoadScene("WinScene");
+        }
+
+        else
+        {
+            SceneManager.LoadScene("LoseScene");
         }
     }
 }
