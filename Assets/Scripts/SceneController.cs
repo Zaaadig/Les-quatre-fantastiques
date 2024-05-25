@@ -5,10 +5,12 @@ using UnityEngine.UI; // Add this to access UI components
 
 public class SceneController : MonoBehaviour
 {
-    public string sceneName;
+    // Scene index to load
+    public int sceneIndex;
     [SerializeField] Animator transitionAnim;
 
     private bool m_isLoading = false;
+
     // Method to be called on button click
     public void OnButtonClick()
     {
@@ -21,7 +23,17 @@ public class SceneController : MonoBehaviour
         m_isLoading = true;
         transitionAnim.SetTrigger("End");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+
+        // Check if the build index is within the range of available scenes
+        if (sceneIndex >= 0 && sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
+        }
+        else
+        {
+            Debug.LogError("Invalid scene index! Please provide a valid index.");
+        }
+
         transitionAnim.SetTrigger("Start");
         m_isLoading = false;
 
